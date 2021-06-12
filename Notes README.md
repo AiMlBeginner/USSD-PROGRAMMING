@@ -12,3 +12,6 @@ USSD Message cannot be stored but SMS can be stored
 USSD Message supports 182 alphanumeric characters but SMS supports 160 characters
 Types of SMSs>> Normal user to user sms, SMS Short code:4 to 5 digit number ;Branded SMS: Have sender IDs & One Way.
 When building USSD Applications consider: Buying your own USSD and SMS Gateway(Buy Server and Gateway Software-Really Expensive), Connect directly to a Telecommunication Company, Connect via 3rd Party USSD Gateways/Aggregators.
+USSD Application Time Considerations: Session Timeout(90-180sec), Customer Response Time(15-60sec), Applications Response Time.
+Benefits of USSD Applications:-Realtime, Fast and Responsive-Has interactive menu- Accessible by any phone that supports GSM standard-USSD Services available on the home network are also accessible while roaming.
+Drawbacks of USSD Applications: Unreliable due to occasional session based timeouts-USSD messages cannot be saved or forwarded.-security issues due to pin not masked, no aesthetics, Incase of unavailable user, push ussd is not successful.
